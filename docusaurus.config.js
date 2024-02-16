@@ -56,6 +56,12 @@ const config = {
         theme: {
           customCss: "./src/css/custom.css",
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
       }),
     ],
   ],
@@ -83,7 +89,7 @@ const config = {
             label: "爱情、婚礼歌曲",
             to: "/music",
           },
-          { to: "/blog", label: "博客", position: "right" }
+          { to: "/blog", label: "博客", position: "right" },
         ],
       },
       footer: {
