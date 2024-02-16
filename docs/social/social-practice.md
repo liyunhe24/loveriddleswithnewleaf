@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 社交礼仪
+# 社交礼仪课程-金正坤
 
 ## Configure i18n
 
