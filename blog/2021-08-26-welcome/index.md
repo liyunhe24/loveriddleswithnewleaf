@@ -1,25 +1,20 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+slug: about
+title: 关于我为什么要搞一个恋爱推理笔记这件事
+authors: [admin]
+tags: [about, hello]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+作为一个恋爱/相亲小白，很多规矩我都不明白。过年回家经历几次相亲活动后，深感相关领域知识不足。
 
-Simply add Markdown files (or folders) to the `blog` directory.
+之前零散看过一些帖子和视频，但一到用的时候就想不起来。回头复盘了下，缺乏体系化的理论是一个主要原因。
 
-Regular blog authors can be added to `authors.yml`.
+因此我将之前看到的理论以及实践经验系统性整理下来，放在这里。
 
-The blog post date can be extracted from filenames, such as:
+掌握这些知识，不敢说游刃有余手掐把拿，但基本不会出大的问题。
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+如果有人看到这些文章，受到了启发，找到了自己心仪的对象、或者进入了婚姻殿堂，那真的太棒了。
 
-A blog post folder can be convenient to co-locate blog post images:
+最后，我想说这些内容都是个人摘抄的网络资源，版权归原作者所有，我只是一个信息收集者罢了。
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
-
-The blog supports tags as well!
-
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+在这里祝看到文章的各位心想事成，结缘顺利，收获自己的专属爱情。

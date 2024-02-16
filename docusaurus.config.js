@@ -76,20 +76,14 @@ const config = {
             type: "docSidebar",
             sidebarId: "tutorialSidebar",
             position: "left",
-            label: "恋爱理论",
+            label: "恋爱、相亲笔记",
           },
           {
             position: "left",
             label: "爱情、婚礼歌曲",
             to: "/music",
           },
-          {
-            position: "left",
-            label: "小游戏",
-            to: "/game",
-          },
-          { to: "/blog", label: "日志", position: "right" },
-          { to: "/about", label: "关于我", position: "right" },
+          { to: "/blog", label: "博客", position: "right" }
         ],
       },
       footer: {
@@ -104,19 +98,11 @@ const config = {
             href: "/music",
           },
           {
-            label: "小游戏",
-            href: "/game",
-          },
-          {
-            label: "日志",
+            label: "博客",
             to: "/blog",
           },
-          {
-            label: "关于我",
-            to: "/about",
-          },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Love Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
