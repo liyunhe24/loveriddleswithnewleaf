@@ -2,84 +2,36 @@
 sidebar_position: 2
 ---
 
-# 社交礼仪课程-金正坤
+# 社交阶段要注意的普适性课程
 
-## Configure i18n
+:::tip
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
-
-```js title="docusaurus.config.js"
-export default {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
-
-## Translate a doc
-
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
-
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
-
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
-
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
-
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at [http://localhost:3000/fr/](http://localhost:3000/fr/) and the `Getting Started` page is translated.
-
-:::caution
-
-In development, you can only use one locale at a time.
+- 不只是相亲/恋爱的必要事项，也是人际交往场合的普适性内容
+- 这些礼仪都做到，不管结果如何，至少相亲/恋爱场景可以体面收场
 
 :::
 
-## Add a Locale Dropdown
+这里我推荐金正坤教授的社交礼仪课程，包含通用社交场合需要注意的内容
 
-To navigate seamlessly across languages, add a locale dropdown.
+1. 社交礼仪概述
+2. 遵守公德
+3. 称呼
+4. 介绍自己
+5. 介绍他人
+6. 相见礼节（一）
+7. 相见礼节（二）
+8. 名片（上）
+9. 名片（下）
+10. 交谈的方式
+11. 谈话的内容
+12. 拜访
+13. 待客
+14. 电话
+15. 书信
+16. 电子信函
+17. 礼品
+18. 鲜花为礼
+19. 签名与赠言
+20. 拍照与摄像
 
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-export default {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
+课程地址：https://www.bilibili.com/video/BV1zc411X7SP/?vd_source=8ae1df9d8fb6e216848b92f53bcee20e
