@@ -2,9 +2,7 @@
 sidebar_position: 2
 ---
 
-# Translate your site
-
-Let's translate `docs/intro.md` to French.
+# 社交礼仪
 
 ## Configure i18n
 
@@ -71,7 +69,6 @@ export default {
 
 The locale dropdown now appears in your navbar:
 
-![Locale Dropdown](./img/localeDropdown.png)
 
 ## Build your localized site
 
