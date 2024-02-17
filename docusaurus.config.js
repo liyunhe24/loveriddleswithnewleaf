@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "新叶的恋爱推理笔记",
   tagline: "经验之谈，收集关于恋爱、相亲案例的个人向信息站",
-  favicon: "img/favicon.ico",
+  favicon: "img/favicon.jpg",
 
   // Set the production url of your site here
   url: "https://loveriddleswithnewleaf.cyou/",
@@ -67,7 +67,7 @@ const config = {
         title: "新叶的恋爱推理笔记",
         logo: {
           alt: "恋爱推理笔记图标",
-          src: "img/logo.svg",
+          src: "img/logo.jpg",
         },
         items: [
           {
@@ -106,6 +106,11 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      }
     }),
 };
 

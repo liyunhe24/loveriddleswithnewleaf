@@ -4,32 +4,29 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '案例丰富探索',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        发现各类恋爱和相亲案例，探索多种情况和结果，借鉴他人经验，为你的恋爱之旅提供启示。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '情感解析与洞察',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        通过推理和分析，深入了解案例中的情感和行为动机，揭示背后的心理状态，为你做出恋爱决策提供深度洞察。
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '个人化经验分享',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        浏览丰富的恋爱案例，从他人的经验中获得启发，然后以个人角度分享你的恋爱经历和相亲见解，让你的声音被倾听并为他人所受益。
       </>
     ),
   },
