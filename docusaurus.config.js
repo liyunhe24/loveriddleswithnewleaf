@@ -41,6 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: "./sidebars.js",
+          routeBasePath: '/'
         },
         blog: {
           showReadingTime: true,
@@ -76,11 +77,6 @@ const config = {
             position: "left",
             label: "恋爱、相亲笔记",
           },
-          {
-            position: "left",
-            label: "爱情、婚礼歌曲",
-            to: "/music",
-          },
           { to: "/blog", label: "博客", position: "right" },
         ],
       },
@@ -89,11 +85,7 @@ const config = {
         links: [
           {
             label: "推理笔记",
-            to: "/docs/intro",
-          },
-          {
-            label: "爱情、婚礼歌曲",
-            href: "/music",
+            to: "/",
           },
           {
             label: "博客",
